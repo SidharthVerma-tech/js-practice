@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.increment{
+    background-color: green;
+    color: white;
+    padding: 12px;
+    font-size: 1.3rem;
+    margin: 8px;
+    border-radius: 4px;
+}
+.decrement{
+    background-color: red;
+    color: white;
+    padding: 12px;
+    font-size: 1.3rem;
+    margin: 8px;
+    border-radius: 4px;
+}
+.currentNumber{
+    font-size: 3rem;
+    margin: 5px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+}
